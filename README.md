@@ -1,4 +1,4 @@
-# what's this?
+# What's this?
     
     This is a minimal implementation of an NFT trading platform based on the FISCO BCOS blockchain platform and Spring Boot,with NFTs adhering to standards such as ERC720.
     这是一个基于FISCO BCOS区块链平台和Spring Boot的NFT交易平台的最小实现。NFT采用了ERC720等标准。
