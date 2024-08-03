@@ -142,8 +142,10 @@ knife4j:
 ############## 区块链配置 #############
 fisco:
   cert-path: conf
+  # 默认的deploy账号配置, 用于测试, 无需更改 
   deploy-private-key: "e79e4a1b2059726897f64630e00ee96c653a85ef2d76e4a3f9b5a6bfec5e8131"
   deploy-address: "0x2fcbdb86f960e72febae7955e99b2cf0887d403f"
+  ######## 自定义配置  ###########
   user-contract-address: "0x84ead1f5a23b921caf49320272a6b0c3dcc4bebb"
   nft-contract-address: "0x00a440483f3fc32b1e2fd64fb430b614f73b2f7f"
   press-nodes: "222.187.238.227:33320;222.187.238.227:33321"

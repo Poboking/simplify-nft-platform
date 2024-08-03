@@ -50,7 +50,7 @@ dependencies {
     implementation("org.mybatis:mybatis-spring:3.0.3")
     // hutool
     implementation("cn.hutool:hutool-all:5.8.29")
-    // fisco-bcos
+    // fisco-bcos java sdk
     implementation("org.fisco-bcos:solcJ:0.4.25.1")
     implementation("org.fisco-bcos.java-sdk:fisco-bcos-java-sdk:2.9.0")
     implementation("io.netty:netty-all:4.1.53.Final")
