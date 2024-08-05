@@ -22,7 +22,7 @@ import static cn.dev33.satoken.SaManager.log;
 public class SaTokenConfiguration implements WebMvcConfigurer {
     private final Logger logger = org.slf4j.LoggerFactory.getLogger(SaTokenConfiguration.class);
 
-    // 开启Sa-Token的继承注解功能，这样就可以使用@CheckUserLogin和@CheckAdminLogin注解了 ヾ(≧▽≦*)o
+    // 开启Sa-Token的继承注解功能，这样就可以使用@CheckUserLogin和@CheckAdminLogin注解了
     @PostConstruct
     public void rewriteSaStrategy() {
         SaStrategy.instance.getAnnotation = AnnotatedElementUtils::getMergedAnnotation;

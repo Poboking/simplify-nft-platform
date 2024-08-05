@@ -7,7 +7,7 @@ import com.feiniaojin.gracefulresponse.api.ExceptionMapper;
  * @author: poboking
  * @date: 2024/7/12 下午3:18
  */
-@ExceptionMapper(code = "400", msg = "Member already exist")
+@ExceptionMapper(code = "400", msg = "Exception:Member already exist")
 public class MemberAlreadyExistException extends RuntimeException {
     public MemberAlreadyExistException(String message) {
         super(message);
